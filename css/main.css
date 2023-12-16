@@ -54,7 +54,7 @@ a#scrollUp {
     bottom: 0px;
     right: 10px;
     padding: 5px 10px;
-    background: #560361;
+    background: #c2c1c2;
     color: #FFF;
     -webkit-animation: bounce 2s ease infinite;
     animation: bounce 2s ease infinite;
@@ -160,14 +160,14 @@ a#scrollUp i {
 }
 
 .usa:hover {
-    background: #560361;
+    background: #bdbbb8;
     color: #fff;
-    border-color: #560361;
+    border-color: #bdbbb8;
 }
 
 .usa:active,
 .usa.active {
-    background: none repeat scroll 0 0 #560361;
+    background: none repeat scroll 0 0 #bdbbb8;
     -webkit-box-shadow: inherit;
     box-shadow: inherit;
     outline: 0 none;
@@ -181,7 +181,7 @@ a#scrollUp i {
 
 .dropdown-menu li a:hover,
 .dropdown-menu li a:focus {
-    background-color: #560361;
+    background-color: #bdbbb8;
     color: #FFFFFF;
     font-family: 'Roboto', sans-serif;
     text-decoration: none;
@@ -545,7 +545,7 @@ ul.sub-menu {
 }
 
 .footer-bottom p span a {
-    color: #560361;
+    color: #bfb6c0;
     font-style: italic;
     text-decoration: underline;
 }
@@ -564,7 +564,7 @@ ul.sub-menu {
 }
 
 .carousel-indicators li.active {
-    background: #560361;
+    background: #cac5ca;
 }
 
 .item {
@@ -582,18 +582,18 @@ ul.sub-menu {
 }
 
 .item h1 {
-    color: #B4B1AB;
+    color: #bdbbb8;
     font-family: abel;
     font-size: 48px;
     margin-top: 115px;
 }
 
 .item h1 span {
-    color: #560361;
+    color: #d3d0d0;
 }
 
 .item h2 {
-    color: #363432;
+    color: #0a0a0a;
     font-family: 'Roboto', sans-serif;
     font-size: 28px;
     font-weight: 700;
@@ -609,7 +609,7 @@ ul.sub-menu {
 }
 
 .get {
-    background: #560361;
+    background: #bdbbb8;
     border: 0 none;
     border-radius: 0;
     color: #FFFFFF;
@@ -620,7 +620,7 @@ ul.sub-menu {
 }
 
 .item button:hover {
-    background: #560361;
+    background: #bdbbb8;
 }
 
 .control-carousel {
@@ -631,7 +631,7 @@ ul.sub-menu {
 }
 
 .control-carousel:hover {
-    color: #560361;
+    color: #bdbbb8;
 }
 
 .right {
@@ -647,7 +647,7 @@ ul.sub-menu {
 
 .left-sidebar h2,
 .brands_products h2 {
-    color: #560361;
+    color: #bdbbb8;
     font-family: 'Roboto', sans-serif;
     font-size: 18px;
     font-weight: 700;
@@ -705,7 +705,7 @@ h2.title:before {
 
 .category-products .panel-default .panel-heading {
     background-color: #FFFFFF;
-    border-bottom: 1px solid #560361 !important;
+    border-bottom: 1px solid #bdbbb8 !important;
     color: #FFFFFF;
     padding: 5px 20px;
 }
@@ -793,7 +793,7 @@ h2.title:before {
 }
 
 .tooltip-inner {
-    background-color: #560361;
+    background-color: #bdbbb8;
     border-radius: 4px;
     color: #FFFFFF;
     max-width: 200px;
@@ -803,7 +803,7 @@ h2.title:before {
 }
 
 .tooltip.top .tooltip-arrow {
-    border-top-color: #560361;
+    border-top-color: #bdbbb8;
     border-width: 5px 5px 0;
     bottom: 0;
     left: 50%;
@@ -819,7 +819,7 @@ h2.title:before {
 }
 
 h2.title {
-    color: rgb(71, 1, 34);;
+    color: rgb(221, 212, 216);;
     font-family: 'Roboto', sans-serif;
     font-size: 18px;
     font-weight: 700;
@@ -1037,7 +1037,7 @@ h2.title {
 }
 
 .recommended-item-control i {
-    background: none repeat scroll 0 0 #560361;
+    background: none repeat scroll 0 0 #bdbbb8;
     color: #FFFFFF;
     font-size: 20px;
     padding: 4px 10px;
@@ -1101,8 +1101,8 @@ h2.title {
 .pagination .active span:hover,
 .pagination .active a:focus,
 .pagination .active span:focus {
-    background-color: #560361;
-    border-color: #560361;
+    background-color: #bdbbb8;
+    border-color: #bdbbb8;
     color: #FFFFFF;
     cursor: default;
     z-index: 2;
