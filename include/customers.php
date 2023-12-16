@@ -8,11 +8,14 @@ class Customer {
 		return $mydb->getfieldsononetable(self::$tblname);
 
 	}
+
 	function listofcustomer(){
 		global $mydb;
 		$mydb->setQuery("SELECT * FROM ".self::$tblname);
+		$cur = $mydb->executeQuery(); // Assign $cur here
 		return $cur;
 	}
+	
 	function find_customer($id="",$name=""){
 		global $mydb;
 		$mydb->setQuery("SELECT * FROM ".self::$tblname." 

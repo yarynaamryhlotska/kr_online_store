@@ -8,11 +8,13 @@ class Summary {
 		return $mydb->getfieldsononetable(self::$tblname);
 
 	}
-	function listofsummary(){
+	function listofcustomer(){
 		global $mydb;
 		$mydb->setQuery("SELECT * FROM ".self::$tblname);
+		$cur = $mydb->executeQuery(); // Assign $cur here
 		return $cur;
 	}
+	
 	
 	function single_summary($id=""){
 			global $mydb;

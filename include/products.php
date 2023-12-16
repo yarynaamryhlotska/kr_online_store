@@ -8,11 +8,13 @@ class Product {
 		return $mydb->getfieldsononetable(self::$tblname);
 
 	}
-	function listofproducts(){
+	function listofcustomer(){
 		global $mydb;
 		$mydb->setQuery("SELECT * FROM ".self::$tblname);
+		$cur = $mydb->executeQuery(); // Assign $cur here
 		return $cur;
 	}
+	
 	function find_products($id="",$name=""){
 		global $mydb;
 		$mydb->setQuery("SELECT * FROM ".self::$tblname." 

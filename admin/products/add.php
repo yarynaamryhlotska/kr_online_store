@@ -87,7 +87,7 @@
 
                       <div class="col-md-3">
                          <input class="form-control input-sm" id="PROPRICE"  step="any" name="PROPRICE" placeholder=
-                            "&#8369 Price " type="number" value="">
+                            "&#8364 Price " type="number" value="">
                       </div>
                     </div>
                   </div>
