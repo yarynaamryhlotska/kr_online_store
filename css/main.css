@@ -876,7 +876,7 @@ h2.title {
 }
 
 .product-overlay {
-    background: rgba(253, 28, 96, 0.8);
+    background: rgb(110 110 110 / 80%);
     top: 0;
     display: none;
     height: 0;
@@ -901,7 +901,7 @@ h2.title {
 }
 
 .product-overlay .add-to-cart {
-    background: rgb(71, 1, 34);
+    background: #949494;
     border: 0 none;
     border-radius: 0;
     color: #fff;
@@ -912,7 +912,7 @@ h2.title {
 
 .product-overlay .add-to-cart:hover {
     background: #fff; 
-    color: rgb(71, 1, 34);
+    color: rgb(179, 176, 177);
 }
 
 .product-overlay p {
@@ -923,7 +923,7 @@ h2.title {
 }
 
 .add-to-cart {
-    background: rgb(71, 1, 34);
+    background: rgb(184, 182, 183);
     border: 0 none;
     border-radius: 0;
     color: #fff;
@@ -933,7 +933,7 @@ h2.title {
 }
 
 .add-to-cart:hover {
-    background: #560361;
+    background: #a6a5a7;
     border: 0 none;
     border-radius: 0;
     color: #FFFFFF;
@@ -948,7 +948,7 @@ h2.title {
 }
 
 .add-to-cart:hover {
-    background: #560361;
+    background: #a0a0a0;
     color: #FFFFFF;
 }
 
@@ -970,7 +970,7 @@ h2.title {
 
 .choose ul li a:hover {
     background: none;
-    color: #560361;
+    color: #aaa9aa;
 }
 
 .category-tab {
@@ -979,7 +979,7 @@ h2.title {
 
 .category-tab ul {
     background: #40403E;
-    border-bottom: 1px solid #560361;
+    border-bottom: 1px solid #8f8d8f;
     list-style: none outside none;
     margin: 0 0 30px;
     padding: 0;
@@ -997,7 +997,7 @@ h2.title {
 }
 
 .category-tab ul li a:hover {
-    background: #560361;
+    background: #a6a5a7;
     color: #fff;
 }
 
@@ -1008,7 +1008,7 @@ h2.title {
     -moz-border-left-colors: none;
     -moz-border-right-colors: none;
     -moz-border-top-colors: none;
-    background-color: #560361;
+    background-color: #c1bfc2;
     border: 0px;
     color: #FFFFFF;
     cursor: default;
