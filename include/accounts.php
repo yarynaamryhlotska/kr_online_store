@@ -11,10 +11,11 @@ class User {
     }
 
 	function listofuser(){
-		global $mydb;
-		$mydb->setQuery("SELECT * FROM ".self::$tblname);
-		return $cur;
-	}
+        global $mydb;
+        $mydb->setQuery("SELECT * FROM ".self::$tblname);
+        $cur = $mydb->executeQuery(); // Ініціалізуємо змінну $cur перед використанням
+        return $cur;
+    }
  
 	function find_user($id="",$user_name=""){
 		global $mydb;
@@ -52,25 +53,23 @@ class User {
         }
     }
 	
-	function single_user($id=""){
-			global $mydb;
-			$mydb->setQuery("SELECT * FROM ".self::$tblname." 
-				Where USERID= '{$id}' LIMIT 1");
-			$cur = $mydb->loadSingleResult();
-			return $cur;
-	}
-	/*---Instantiation of Object dynamically---*/
-	static function instantiate($record) {
-		$object = new self;
+    function single_user($id = "") {
+        global $mydb;
+        $mydb->setQuery("SELECT * FROM " . self::$tblname . " WHERE USERID= '{$id}' LIMIT 1");
+        $cur = $mydb->loadSingleResult();
+        return $cur;
+    }
+    /*---Instantiation of Object dynamically---*/
+	public static function instantiate($record) {
+        $object = new self;
 
-		foreach($record as $attribute=>$value){
-		  if($object->has_attribute($attribute)) {
-		    $object->$attribute = $value;
-		  }
-		} 
-		return $object;
-	}
-	
+        foreach ($record as $attribute => $value) {
+            if ($object->has_attribute($attribute)) {
+                $object->$attribute = $value;
+            }
+        }
+        return $object;
+    }
 	
 	/*--Cleaning the raw data before submitting to Database--*/
 	private function has_attribute($attribute) {
