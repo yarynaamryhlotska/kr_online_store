@@ -29,9 +29,9 @@ switch ($view) {
 		} 
 		$content='customer/orderdetails.php';	
 	if( isset($_SESSION['orderdetails'])){
-      if (@count($_SESSION['orderdetails'])>0){
-        	$title = 'Cart List' . '| <a href="">Order Details</a>';
-		      }
+		if (is_array($_SESSION['orderdetails']) && count($_SESSION['orderdetails']) > 0) {
+			$title = 'Cart List' . '| <a href="">Order Details</a>';
+		}		
 		    } 
 		break;
 	case 'billing' : 	
@@ -39,11 +39,9 @@ switch ($view) {
          $_SESSION['billingdetails'] = "Order Details";
 		} 
 		$content='customer/customerbilling.php';	
-		if( isset($_SESSION['billingdetails'])){
-      if (@count($_SESSION['billingdetails'])>0){
-        	$title = 'Cart List' . '| <a href="">Billing Details</a>';
-		      }
-		    } 	
+		if (is_array($_SESSION['billingdetails']) && count($_SESSION['billingdetails']) > 0) {
+			$title = 'Cart List' . '| <a href="">Billing Details</a>';
+		}			
 		break;
 	case 'contact' :
         $title="Contact Us";	
