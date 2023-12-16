@@ -71,7 +71,7 @@ a#scrollUp i {
 
 .header_top {
     
-    background: #a96565 !important; /* Replace #ff0000 with your desired color code */
+    background: #8f8f8f !important; /* Replace #ff0000 with your desired color code */
 }
 
 .contactinfo ul li:first-child {
@@ -200,7 +200,7 @@ a#scrollUp i {
 
 .shop-menu ul li a {
     background: #FFFFFF;
-    color: #696763;
+    color: #423939;
     font-family: 'Roboto', sans-serif;
     font-size: 14px;
     font-weight: 300;
@@ -237,7 +237,7 @@ a#scrollUp i {
 }
 
 .mainmenu ul li a {
-    color: #a96565;
+    color: #423939;
     font-family: 'Roboto', sans-serif;
     font-size: 17px;
     font-weight: 300;
@@ -1758,7 +1758,7 @@ textarea {
 
 .update,
 .check_out {
-    background: #560361;
+    background: #8f8f8f;
     border-radius: 0;
     color: #FFFFFF;
     margin-top: 18px;

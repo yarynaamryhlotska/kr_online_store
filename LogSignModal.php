@@ -70,7 +70,6 @@
 
                        </div>
                         <div class="panel-footer">
-                             <p align="left">&copy; <a href="https://youtube.com/c/nowdemy">NOWDEMY Source Code</a></p>
                         </div>
                     </div> 
                   </div>
@@ -193,9 +192,7 @@
                                            <label class="col-md-4" align = "right"for=
                                           "image"></label>
                                           <div class="col-md-8">
-                                        <p>  I <input type="checkbox" id="conditionterms" name="conditionterms" value="checkbox" />
-                                           <small>Agree with the <a class="toggle-modal"  onclick=" OpenPopupCenter('terms.php','Terms And Codition','600','600')"  ><b>TERMS AND CONDITION</b></a> of NOWDEMY Source Code.</small>
-                                           
+                                        <p>  I <input type="checkbox" id="conditionterms" name="conditionterms" value="checkbox" />                                           
                                           </div>
                                         </div>
                                       </div> 
@@ -211,13 +208,6 @@
                                           </div>
                                         </div>
                                       </div> 
-
-                                        
-
-                                     </div>
-                                    <div class="panel-footer">
-                                        <p align="left">&copy; <a href="https://youtube.com/c/nowdemy">NOWDEMY Source Code</a></p>
-                                    </div> 
                             </div> 
                             <!-- end panel sign up -->
                         </form>  
