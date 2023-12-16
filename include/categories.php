@@ -8,11 +8,13 @@ class Category {
 		return $mydb->getfieldsononetable(self::$tblname);
 
 	}
-	function listofcategory(){
+	function listofcustomer(){
 		global $mydb;
 		$mydb->setQuery("SELECT * FROM ".self::$tblname);
+		$cur = $mydb->executeQuery(); // Assign $cur here
 		return $cur;
 	}
+	
 	function find_category($id="",$name=""){
 		global $mydb;
 		$mydb->setQuery("SELECT * FROM ".self::$tblname." 

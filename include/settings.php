@@ -8,11 +8,13 @@ class Setting {
 		return $mydb->getfieldsononetable(self::$tblname);
 
 	}
-	function listofsetting(){
+	function listofcustomer(){
 		global $mydb;
 		$mydb->setQuery("SELECT * FROM ".self::$tblname);
+		$cur = $mydb->executeQuery(); // Assign $cur here
 		return $cur;
 	}
+	
 	 
 	 
 	function single_setting($id=""){

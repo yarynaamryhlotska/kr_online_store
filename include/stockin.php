@@ -8,11 +8,13 @@ class StockIn {
 		return $mydb->getfieldsononetable(self::$tblname);
 
 	}
-	function listofproducts(){
+	function listofcustomer(){
 		global $mydb;
 		$mydb->setQuery("SELECT * FROM ".self::$tblname);
+		$cur = $mydb->executeQuery(); // Assign $cur here
 		return $cur;
 	}
+	
  
 	function single_product($id=""){
 			global $mydb;

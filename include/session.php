@@ -41,17 +41,18 @@ function admin_confirm_logged_in() {
 		}
 	}
 
-	function message($msg="", $msgtype="") {
-	  if(!empty($msg)) {
-	    // then this is "set message"
-	    // make sure you understand why $this->message=$msg wouldn't work
-	    $_SESSION['message'] = $msg;
-	    $_SESSION['msgtype'] = $msgtype;
-	  } else {
-	    // then this is "get message"
-			return $message;
-	  }
-	}
+	function message($msg = "", $msgtype = "") {
+    if (!empty($msg)) {
+        // then this is "set message"
+        // make sure you understand why $this->message=$msg wouldn't work
+        $_SESSION['message'] = $msg;
+        $_SESSION['msgtype'] = $msgtype;
+    } else {
+        // then this is "get message"
+        return isset($_SESSION['message']) ? $_SESSION['message'] : "";
+    }
+}
+
 		function check_message(){
   
     if(isset($_SESSION['message'])){
@@ -73,13 +74,14 @@ function admin_confirm_logged_in() {
 
  }
 
-function cusmsg($num=""){
-  if(!empty($num)){
-    $_SESSION['gcNotify'] = $num;
-  }else{
-    return $gcNotify;
+ function cusmsg($num = "") {
+  if (!empty($num)) {
+      $_SESSION['gcNotify'] = $num;
+  } else {
+      return isset($_SESSION['gcNotify']) ? $_SESSION['gcNotify'] : "";
   }
 }
+
 
 function notifycheck(){
   if(isset($_SESSION['gcNotify'])){
