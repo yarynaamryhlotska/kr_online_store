@@ -9,8 +9,7 @@
       <div class="table-responsive cart_info"> 
         <?php  
 
-  // if (!isset($_SESSION['USERID'])){
-  //     redirect("index.php"); 
+
 check_message();  
  
 ?>
