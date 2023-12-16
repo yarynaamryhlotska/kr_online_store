@@ -70,7 +70,8 @@ a#scrollUp i {
 **************************/
 
 .header_top {
-    background: none repeat scroll 0 0 #F0F0E9;
+    
+    background: #a96565 !important; /* Replace #ff0000 with your desired color code */
 }
 
 .contactinfo ul li:first-child {
@@ -236,19 +237,27 @@ a#scrollUp i {
 }
 
 .mainmenu ul li a {
-    color: #a5047d;
+    color: #a96565;
     font-family: 'Roboto', sans-serif;
     font-size: 17px;
     font-weight: 300;
     padding: 0;
     padding-bottom: 10px;
 }
+.carousel-inner[data-custom-style] {
+    position: relative;
+    width: 100%;
+    height: 400px;
+    background: #afafaf !important;
+}
+
+/* Add the data-custom-style attribute to the elements where you want the styles to apply */
+
 
 .mainmenu ul li a:hover,
 .mainmenu ul li a.active,
 .shop-menu ul li a.active {
     background: none;
-    color: #a5047d;
 }
 
 .search_box input {
@@ -594,8 +603,12 @@ ul.sub-menu {
     color: #d3d0d0;
 }
 
+div.header-top {
+    background: #0e0d0d; /* Replace #ff0000 with your desired color code */
+}
+
 .item h2 {
-    color: #0a0a0a;
+    color: #b7b7b7;
     font-family: 'Roboto', sans-serif;
     font-size: 28px;
     font-weight: 700;

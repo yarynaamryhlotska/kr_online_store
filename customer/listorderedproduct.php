@@ -7,27 +7,6 @@ require_once ("../include/initialize.php");
 
 
 
-	
-// if (isset($_POST['id'])){
-
-// if ($_POST['actions']=='confirm') {
-// 							# code...
-// 	$status	= 'Confirmed';	
-// 	// $remarks ='Your order has been confirmed. The ordered products will be yours anytime.';
-	 
-// }elseif ($_POST['actions']=='cancel'){
-// 	// $order = New Order();
-// 	$status	= 'Cancelled';
-// 	// $remarks ='Your order has been cancelled due to lack of communication and incomplete information.';
-// }
-
-// $summary = New Summary();
-// $summary->ORDEREDSTATS     = $status;
-// $summary->update($_POST['id']);
-
-
-// }
-
 if(isset($_POST['close'])){
 	unset($_SESSION['ordernumber']);
 	redirect(web_root.'index.php'); 

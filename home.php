@@ -39,7 +39,7 @@
                                 <p> Ukrainian clothing and accessories brand with 100% own production. SINCE 2017. </p>
                             </div>
                             <div class="col-sm-6 text-center">
-                                <img src="images/home/girl3.jpg" class="girl img-responsive center-block" alt="" style="width: 250%; height: 400px;" />
+                                <img src="images/home/girl3.jpg" class="girl img-responsive center-block" alt="" style="width: 120%; height: 400px;" />
                                 <img src="images/home/pricing.png" class="pricing center-block" alt="" />
                             </div>
                         </div>
@@ -129,7 +129,7 @@
           <div class="recommended_items"><!--recommended_items-->
             <h2 class="title text-center">recommended items</h2>
             
-            <div id="recommended-item-carousel"class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner" data-custom-style>
               <div class="carousel-inner" >
                 <div class="item active"> 
                          <?php 

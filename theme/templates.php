@@ -49,8 +49,8 @@ if (isset($_SESSION['gcCart'])){
           <div class="col-sm-6">
             <div class="contactinfo">
               <ul class="nav nav-pills" >
-                <li><a href="#"><i class="fa fa-phone"></i> +2 95 01 88 821</a></li>
-                <li><a href="#"><i class="fa fa-envelope"></i> Nowdemyofficial@gmail.com</a></li>
+                <li><a href="#"><i class="fa fa-phone"></i> +380 451 88 83</a></li>
+                <li><a href="#"><i class="fa fa-envelope"></i> SERENIQUE@gmail.com</a></li>
               </ul>
             </div>
           </div>
@@ -155,28 +155,21 @@ if (isset($_SESSION['gcCart'])){
     <div class="footer-top">
       <div class="container">
         <div class="row">
-          <div class="col-sm-2">
+          <div class="col-sm-7">
             <div class="companyinfo">
-              <h2><span>Smart</span>-shop</h2>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,sed do eiusmod tempor</p>
+              <h2><span>SERENIQUE</h2>
+              <p>SERENIQUE est une marque ukrainienne de vêtements et d'accessoires fondée et gérée par l'influenceuse Yaryna Mryglotska. D'un petit showroom à Lviv, où tout a commencé en 2017, la marque est devenue une marque reconnaissable avec sa propre production et un réseau de showrooms à Kiev, Ternopil et Lviv.
+SERENIQUE présente un mini style scandinave minimaliste avec des détails accentués et est conçu pour les personnalités modernes et élégantes. Les vêtements SERENIQUE mettent en valeur l'individualité sans la dissimuler. L'assortiment de la marque comprend des articles minimalistes et tendance qui aideront les images à créer une structure inégalée.</p>
             </div>
           </div>
           <div class="col-sm-7">
-            
-            </div>
-          <div class="col-sm-3">
-            <div class="address">
-              <img src="images/home/map.png" alt="" />
-              <p>505 S Atlantic Ave Virginia Beach, VA(Virginia)</p>
-            </div>
-          </div>
+
         </div>
       </div>
     </div>
     
     <div class="footer-widget">
       <div class="container">
-        <p>You can modify this section using your own personal information</p>
         <div class="row">
           <div class="col-sm-3">
             <div class="single-widget">
@@ -210,10 +203,7 @@ if (isset($_SESSION['gcCart'])){
               <ul class="nav nav-pills nav-stacked">
                 <li><a href="#">Terms of Use</a></li>
                 <li><a href="#">Privecy Policy</a></li>
-                <li><a href="https://youtube.com/c/nowdemy">School Management System</a></li>
-                <li><a href="https://www.youtube.com/watch?v=9NelQ_HDTXo">Point of Sales</a></li>
-                <li><a href="https://www.youtube.com/watch?v=zzfSJYOe1FE">Bitcoin Mining System</a></li>
-              </ul>
+             </ul>
             </div>
           </div>
           <div class="col-sm-3">
@@ -224,7 +214,6 @@ if (isset($_SESSION['gcCart'])){
                 <li><a href="#">Careers</a></li>
                 <li><a href="#">Store Location</a></li>
                 <li><a href="#">Affillate Program</a></li>
-                <li><a href="#">Copyright</a></li>
               </ul>
             </div>
           </div>
@@ -237,8 +226,7 @@ if (isset($_SESSION['gcCart'])){
     <div class="footer-bottom">
       <div class="container">
         <div class="row">
-          <p class="pull-left">Modified by <span><a href="https://youtube.com/c/nowdemy">NOWDEMY</a></span></p>
-          <p class="pull-right">Designed by <span><a target="_blank" href="http://www.themeum.com">Themeum</a></span></p>
+          <p class="pull-right">Designed by <span><a target="_blank" href="https://github.com/yarynamryhlotska11">Yaryna Mryhlotska</a></span></p>
         </div>
       </div>
     </div>

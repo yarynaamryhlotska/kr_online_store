@@ -6052,11 +6052,20 @@ body.modal-open,
 .carousel {
   position: relative;
 }
+.carousel-inner[data-custom-style] {
+  position: relative;
+  width: 100%;
+  height: 400px;
+  background: #afafaf !important;
+}
+
+/* Add the data-custom-style attribute to the elements where you want the styles to apply */
 
 .carousel-inner {
   position: relative;
   width: 100%;
   overflow: hidden;
+  background: #ff0000 !important; /* Replace #ff0000 with your desired color code */
 }
 
 .carousel-inner > .item {

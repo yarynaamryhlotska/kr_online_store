@@ -3,14 +3,6 @@
        if (!isset($_SESSION['CUSID'])){
       redirect("index.php");
      }
-
-
-     // if($_SESSION['fixnmixConfiremd']>0){
-     //   $query = "update `tblpayment` SET `HVIEW` = true WHERE `CUSTOMERID`='".$_SESSION['CUSID']."' AND STATS in ('Confirmed','Cancelled')  AND HVIEW=0";
-     //    mysql_query($query);
-     // }
-    
-
      $customer = New Customer();
       $res = $customer->single_customer($_SESSION['CUSID']);
     ?>
