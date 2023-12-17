@@ -135,7 +135,7 @@ class Database {
 try {
     $mydb = new Database();
     // If no exceptions are thrown, the connection was successful
-    echo "Connected to MySQL successfully!";
+    echo "";
 } catch (Exception $e) {
     echo "Error: " . $e->getMessage();
 }
