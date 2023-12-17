@@ -192,8 +192,9 @@
                                            <label class="col-md-4" align = "right"for=
                                           "image"></label>
                                           <div class="col-md-8">
-                                        <p>  I <input type="checkbox" id="conditionterms" name="conditionterms" value="checkbox" />                                           
-                                          </div>
+                                          <p>  I <input type="checkbox" id="conditionterms" name="conditionterms" value="checkbox" />
+                                           <small>Agree with the <a class="toggle-modal"  onclick=" OpenPopupCenter('terms.php','Terms And Codition','600','600')"  ><b>TERMS AND CONDITION</b></a> of NOWDEMY Source Code.</small>
+                                         
                                         </div>
                                       </div> 
 
