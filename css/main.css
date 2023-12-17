@@ -594,8 +594,8 @@ ul.sub-menu {
 
 .item h1 {
     color: #bdbbb8;
-    font-family: abel;
-    font-size: 48px;
+    font-family: emoji;
+    font-size: 38px;
     margin-top: 115px;
 }
 
@@ -882,7 +882,8 @@ h2.title {
 }
 
 .productinfo img {
-    width: 100%;
+    width: 240px;
+    height: 240px;
 }
 
 .productinfo {
@@ -971,11 +972,12 @@ h2.title {
 }
 
 .choose ul li a {
-    color: #a56d0b;
+    color: #6a6a6a;
     font-family: 'Roboto', sans-serif;
     font-size: 13px;
     padding-left: 0;
     padding-right: 0;
+    background: #f3f3f3;
 }
 
 .choose ul li a i {
