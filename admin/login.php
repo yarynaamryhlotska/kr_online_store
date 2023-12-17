@@ -15,7 +15,6 @@ require_once("../include/initialize.php");
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 <!--===============================================================================================-->	
-	<link rel="icon" type="image/png" href="images/icons/favicon.ico"/>
 <!--===============================================================================================-->
 	<link rel="stylesheet" type="text/css" href="vendor/bootstrap/css/bootstrap.min.css">
 <!--===============================================================================================-->
@@ -34,13 +33,12 @@ require_once("../include/initialize.php");
 <!--===============================================================================================-->
 </head>
 <body>
-	<div class="limiter" >
-		<div class="container-login100" style="background-image: url('images/img-01.jpg');">
-
-			<div class="wrap-login100">
-				<form method="post" action=""  class="login100-form validate-form" >
+	<div class="limiter">
+	<div class="container-login100" style="background-image: url('images/qw.jpg');">
+        <div class="wrap-login100" style="">
+            	<form method="post" action=""  class="login100-form validate-form" >
 					<div class="login100-form-avatar">
-						<img src="images/youtube pic copy.jpg" alt="AVATAR">
+						<img src="images/logo.jpg" alt="AVATAR">
 					</div>
 
 					<span class="login100-form-title p-t-20 p-b-45">
