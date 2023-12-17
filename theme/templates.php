@@ -158,8 +158,8 @@ if (isset($_SESSION['gcCart'])){
           <div class="col-sm-7">
             <div class="companyinfo">
               <h2><span>SERENIQUE</h2>
-              <p>SERENIQUE est une marque ukrainienne de vêtements et d'accessoires fondée et gérée par l'influenceuse Yaryna Mryglotska. D'un petit showroom à Lviv, où tout a commencé en 2017, la marque est devenue une marque reconnaissable avec sa propre production et un réseau de showrooms à Kiev, Ternopil et Lviv.
-SERENIQUE présente un mini style scandinave minimaliste avec des détails accentués et est conçu pour les personnalités modernes et élégantes. Les vêtements SERENIQUE mettent en valeur l'individualité sans la dissimuler. L'assortiment de la marque comprend des articles minimalistes et tendance qui aideront les images à créer une structure inégalée.</p>
+              <p>SERENIQUE is a Ukrainian clothing and accessories brand founded and managed by influencer Yaryna Mryglotska. From a small showroom in Lviv, where it all started in 2017, the brand has grown into a recognizable brand with its own production and a network of showrooms in kyiv, Ternopil and Lviv.
+SERENIQUE features a minimalist Scandinavian mini style with accented details and is designed for modern, stylish personalities. SERENIQUE clothing highlights individuality without hiding it. The brand's assortment includes minimalist and trendy items that will help images create an unrivaled structure.</p>
             </div>
           </div>
           <div class="col-sm-7">
