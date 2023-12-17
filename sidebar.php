@@ -17,7 +17,7 @@
             </div><!--/category-products-->
  
             <div class="shipping text-center"><!--shipping-->
-              <img src="images/home/shipping.jpg" alt="" />
+              <img src="images/home/shipping1.jpg" alt="" />
             </div><!--/shipping-->
           
           </div>

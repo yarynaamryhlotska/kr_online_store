@@ -9,7 +9,7 @@
                         <li data-target="#slider-carousel" data-slide-to="2"></li>
                     </ol>
 
-                    <div class="carousel-inner" style="background:#8f8f8f !important;">
+                    <div class="carousel-inner" style="background:#b9b9b9 !important;">
                         <div class="item active">
                             <div class="col-sm-6">
                                 <h1><span>SERENIQUE</span></h1>
@@ -17,9 +17,7 @@
                                 <p> Ukrainian clothing and accessories brand with 100% own production. SINCE 2017. </p>
                             </div>
                             <div class="col-sm-6 text-center">
-                                <img src="images/home/girl1.jpg" class="girl img-responsive center-block" alt="" style="width: 110%; height: 400px;" />
-                                <img src="images/home/pricing.png" class="pricing center-block" alt="" />
-                            </div>
+                                <img src="images/home/girl11.jpg" class="girl img-responsive center-block" alt="" style="width: 110%; height: 400px;" />                            </div>
                         </div>
                         <div class="item">
                             <div class="col-sm-6">
@@ -29,7 +27,6 @@
                             </div>
                             <div class="col-sm-6 text-center">
                                 <img src="images/home/girl2.jpg" class="girl img-responsive center-block" alt="" style="width: 110%; height: 400px;" />
-                                <img src="images/home/pricing.png" class="pricing center-block" alt="" />
                             </div>
                         </div>
                         <div class="item">
@@ -40,7 +37,6 @@
                             </div>
                             <div class="col-sm-6 text-center">
                                 <img src="images/home/girl3.jpg" class="girl img-responsive center-block" alt="" style="width: 110%; height: 400px;" />
-                                <img src="images/home/pricing.png" class="pricing center-block" alt="" />
                             </div>
                         </div>
                     </div>

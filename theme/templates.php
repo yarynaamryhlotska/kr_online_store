@@ -43,7 +43,7 @@ if (isset($_SESSION['gcCart'])){
 <body style="background-color:white" onload="totalprice()" >
 
   <header id="header"><!--header-->
-    <div class="header_top" style="background: linear-gradient(to bottom, #993366 0%, #660066 100%); !important;"><!--header_top-->
+    <div class="header_top" style="background: #b9b9b9 !important;"><!--header_top-->
       <div class="container">
         <div class="row">
           <div class="col-sm-6">

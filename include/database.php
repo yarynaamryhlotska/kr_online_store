@@ -1,29 +1,43 @@
 <?php
 require_once(LIB_PATH.DS."config.php");
-class Database {
-	var $sql_string = '';
-	var $error_no = 0;
-	var $error_msg = '';
-	private $conn;
-	public $last_query;
-	private $magic_quotes_active;
-	private $real_escape_string_exists;
 
-	function __construct() {
-        $this->open_connection();
+class Database {
+    var $sql_string = '';
+    var $error_no = 0;
+    var $error_msg = '';
+    private $conn;
+    public $last_query;
+    private $magic_quotes_active;
+    private $real_escape_string_exists;
+
+    function __construct() {
         $this->real_escape_string_exists = function_exists("mysqli_real_escape_string");
+        $this->reconnect();
+    }
+
+    private function reconnect() {
+        $this->conn = mysqli_init();
+        mysqli_options($this->conn, MYSQLI_OPT_CONNECT_TIMEOUT, 5);
+
+        try {
+            mysqli_real_connect($this->conn, server, user, pass, database_name);
+        } catch (mysqli_sql_exception $e) {
+            // Handle connection errors here
+            throw new Exception("Failed to connect to MySQL: " . $e->getMessage());
+        }
     }
 
     public function open_connection() {
         $this->conn = mysqli_connect(server, user, pass);
+
         if (!$this->conn) {
-            echo "Проблема з підключенням до бази даних! Зверніться до адміністратора!";
-            exit();
+            // Throw exception for connection error
+            throw new Exception("Failed to connect to MySQL: " . mysqli_connect_error());
         } else {
             $db_select = mysqli_select_db($this->conn, database_name);
             if (!$db_select) {
-                echo "Проблема в виборі бази даних! Зверніться до адміністратора!";
-                exit();
+                // Throw exception for database selection error
+                throw new Exception("Failed to select database: " . mysqli_error($this->conn));
             }
         }
     }
@@ -118,7 +132,11 @@ class Database {
 	}
 
 } 
-$mydb = new Database();
-
-
+try {
+    $mydb = new Database();
+    // If no exceptions are thrown, the connection was successful
+    echo "Connected to MySQL successfully!";
+} catch (Exception $e) {
+    echo "Error: " . $e->getMessage();
+}
 ?>
