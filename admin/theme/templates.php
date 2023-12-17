@@ -68,7 +68,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                 <a class="navbar-brand"  href="<?php echo web_root; ?>admin/index.php" >NOWDEMY E-Commerce</a>
+                 <a class="navbar-brand"  href="<?php echo web_root; ?>admin/index.php" >SERENIQUE</a>
             </div>
             <!-- /.navbar-header -->
 
@@ -100,7 +100,7 @@ $singleuser = $user->single_user($_SESSION['USERID']);
                 <!-- /.dropdown -->
                 <li class="dropdown">
                     <a class="dropdown-toggle" data-toggle="dropdown" href="#">
-                        Howdy, <?php echo $_SESSION['U_NAME']; ?> <img title="profile image" width="23px" height="17px" src="<?php echo web_root.'admin/user/'.$singleuser ->USERIMAGE ?>">  
+                         <?php echo $_SESSION['U_NAME']; ?> <img title="profile image" width="23px" height="17px" src="<?php echo web_root.'admin/user/'.$singleuser ->USERIMAGE ?>">  
                             
                     </a>
                     <ul class="dropdown-menu dropdown-acnt">

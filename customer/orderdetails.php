@@ -138,7 +138,7 @@ $singlecustomer = $customer->single_customer($customerid);
                                     
                                         <div class="col-md-12">
                                           <label class="col-md-4 control-label" for=
-                                          "PLACE">Place(Brgy/City):</label>
+                                          "PLACE">Place(Country/City):</label>
 
                                           <div class="col-md-8">
                                            <select class="form-control paymethod" name="PLACE" id="PLACE" onchange="validatedate()"> 
